@@ -1,0 +1,124 @@
+/* Import google fonts */
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Roboto+Slab:700");
+
+body {
+  background-color: #fff;
+  color: #222;
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-size: 17px;
+  font-size: 1.7rem;
+  line-height: 1.41;
+
+  @include for-tablet-portrait-up {
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 1.6;
+  }
+}
+
+p {
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  margin: 24px 0;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 32px;
+  font-size: 3.2rem;
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  @include for-tablet-portrait-up {
+    font-size: 36px;
+    font-size: 3.6rem;
+    line-height: 1.33;
+  }
+
+  @include for-desktop-up {
+    font-size: 48px;
+    font-size: 4.8rem;
+    line-height: 1.17;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  font-size: 2.4rem;
+  line-height: 1.33;
+  margin-top: 24px;
+
+  @include for-tablet-portrait-up {
+    font-size: 30px;
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  @include for-desktop-up {
+    font-size: 36px;
+    font-size: 3.6rem;
+    line-height: 1.11;
+  }
+}
+
+h3 {
+  font-size: 21px;
+  font-size: 2.1rem;
+  line-height: 1.33;
+
+  @include for-tablet-portrait-up {
+    font-size: 24px;
+    font-size: 2.4rem;
+  }
+}
+
+h4 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 1.33;
+
+  @include for-tablet-portrait-up {
+    font-size: 21px;
+    font-size: 2.1rem;
+    line-height: 1.52;
+  }
+}
+
+h5 {
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 1.42;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  @include for-tablet-portrait-up {
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+}
+
+h6 {
+  font-size: 17px;
+  font-size: 1.7rem;
+  line-height: 1.41;
+  font-style: italic;
+
+  @include for-tablet-portrait-up {
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 1.6;
+  }
+}
