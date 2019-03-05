@@ -161,10 +161,16 @@ blockquote {
   margin: 1em 20px;
 
   @include for-tablet-portrait-up {
+    font-size: 30px;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 1em 40px;
+  }
+
+  @include for-desktop-up {
     font-size: 36px;
     font-size: 3.6rem;
-    line-height: 1.1;
-    margin: 1em 40px;
+    line-height: 1.11;
   }
 
   .blockquote-footer {
